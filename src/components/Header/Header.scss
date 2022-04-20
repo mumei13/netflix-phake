@@ -1,0 +1,40 @@
+#header {
+  height: 80px;
+  padding: 0 50px;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  z-index: 100;
+
+  .left {
+    height: 30px;
+    width: 200px;
+    button {
+      background: transparent;
+      border: none;
+      img {
+        width: 100%;
+        padding: 20px;
+      }
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+
+  .right {
+    margin-right: 20px;
+    float: right;
+
+    button.btn.button-sign-in {
+      color: #fff;
+      background: #e50914;
+      border: none;
+      border-radius: 3px;
+      padding: 5px 15px;
+    }
+    button.btn.button-sign-in:hover {
+      cursor: pointer;
+    }
+  }
+}

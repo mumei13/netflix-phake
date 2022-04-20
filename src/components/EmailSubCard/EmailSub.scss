@@ -1,0 +1,27 @@
+.email-form {
+  height: 70px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input[type="email"] {
+    width: 500px;
+    height: 100%;
+    border: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 0px;
+  }
+
+  input[type="button"] {
+    width: 250px;
+    height: 100%;
+    border: none;
+    background: #e50914;
+    color: #fff;
+    font-size: 26px;
+    padding: 0;
+  }
+}
